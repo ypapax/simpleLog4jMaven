@@ -11,6 +11,10 @@ run(){
 }
 
 br(){
+	$0 build_and_run
+}
+
+build_and_run(){
 	$0 build && $0 run
 }
 
